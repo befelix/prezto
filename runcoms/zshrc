@@ -11,3 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+alias open='xdg-open'
+alias reload='source ~/.zshrc'
+alias rm='nocorrect rm'
+
+# disable wine debugging
+export WINEDEBUG=-all
